@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_jersey`
 --
-CREATE DATABASE db_jersey;
-USE db_jersey;
 
 -- --------------------------------------------------------
 
