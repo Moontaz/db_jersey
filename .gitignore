@@ -1,0 +1,43 @@
+# Node modules and dependencies
+node_modules/
+package-lock.json
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Prisma generated files and database
+prisma/.env
+prisma/migrations/
+prisma/dev.db
+prisma/dev.db-journal
+.prisma/
+
+# Environment files
+.env
+
+# AdminJS generated or cache files (if applicable)
+.adminjs/
+
+# OS-specific and editor-related files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build and cache directories
+build/
+dist/
+.cache/
+
+# Temporary files and sessions
+*.tmp
+*.temp
+*.swp
+
+# Exclude uploaded files or REST request files (if not needed in version control)
+public/uploads/
+request.rest
