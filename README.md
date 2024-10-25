@@ -21,12 +21,14 @@ Follow these steps to set up the project and database locally.
 ### **Installation Steps**
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/Moontaz/db_jersey.git
    cd db_jersey
    ```
 
 2. **Install Dependencies**
+
    ```bash
    npm install
    ```
@@ -73,6 +75,7 @@ npx prisma generate
 ### **Running the Server**
 
 1. **Start the API Server**
+
    ```bash
    node app.js
    ```
@@ -80,7 +83,7 @@ npx prisma generate
 2. **Access the Admin Dashboard**
    - Open your browser and go to:
      ```
-     http://localhost:6000/admin
+     http://localhost:3000/admin
      ```
    - Login Credentials:
      - **Email**: `admin@example.com`
@@ -89,6 +92,7 @@ npx prisma generate
 ---
 
 ### **Project Structure**
+
 ```
 db_jersey/
 │
@@ -111,7 +115,8 @@ db_jersey/
 
 ### **Troubleshooting**
 
-- **Database Import Issues**:  
+- **Database Import Issues**:
+
   - Ensure the database name in your **`.env`** file matches the one you created.
   - If import fails, ensure MySQL is running and you have the correct permissions.
 
