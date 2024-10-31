@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3310
--- Generation Time: Oct 25, 2024 at 04:29 PM
+-- Generation Time: Oct 31, 2024 at 04:48 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -104,12 +104,15 @@ CREATE TABLE `variabel` (
 --
 
 INSERT INTO `variabel` (`id_variabel`, `nama_variabel`, `nilai_variabel`) VALUES
-(1, 'maks_kapasitas_produksi_per_hari', 100),
-(2, 'maks_overtime_per_hari', 5),
 (3, 'min_order', 10),
 (4, 'biaya_per_baju', 15000),
 (5, 'biaya_overtime', 50000),
-(6, 'gaji_overtime_per_jam', 100000);
+(6, 'gaji_overtime_per_jam', 100000),
+(7, 'maks_overtime_per_minggu', 15),
+(8, 'kapasitas_normal_per_hari', 100),
+(9, 'kapasitas_lembur_per_jam', 11),
+(10, 'maks_lembur_per_hari', 4),
+(11, 'maks_lembur_per_minggu', 18);
 
 -- --------------------------------------------------------
 
@@ -198,7 +201,7 @@ ALTER TABLE `pesanan`
 -- AUTO_INCREMENT for table `variabel`
 --
 ALTER TABLE `variabel`
-  MODIFY `id_variabel` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_variabel` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Constraints for dumped tables
